@@ -1,5 +1,5 @@
 module cdp_sync(input [3:0] in, output reg [1:0] out, input wire clk, output reg valid);
-    always @(posedge clk) begin
+    always @(posedge clk) begin //al fronte positivo di clock viene eseguito il codice nel blocco
         valid = 1'b1;
         casez(in)
             4'b1???: out = 2'b00;   //priorità al bit più significativo
