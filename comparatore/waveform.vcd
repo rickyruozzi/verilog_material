@@ -1,0 +1,182 @@
+$date
+	Thu Oct 16 14:30:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! LT $end
+$var wire 1 " GT $end
+$var wire 1 # EQ $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module C $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 # EQ $end
+$var wire 1 " GT $end
+$var wire 1 ! LT $end
+$var wire 1 ( LT4 $end
+$var wire 1 ) LT3 $end
+$var wire 1 * LT2 $end
+$var wire 1 + LT1 $end
+$var wire 1 , GT4 $end
+$var wire 1 - GT3 $end
+$var wire 1 . GT2 $end
+$var wire 1 / GT1 $end
+$var wire 1 0 EQ4 $end
+$var wire 1 1 EQ3 $end
+$var wire 1 2 EQ2 $end
+$var wire 1 3 EQ1 $end
+$scope module C1 $end
+$var wire 1 4 A $end
+$var wire 1 5 B $end
+$var wire 1 3 EQ $end
+$var wire 1 / GT $end
+$var wire 1 + LT $end
+$upscope $end
+$scope module C2 $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 2 EQ $end
+$var wire 1 . GT $end
+$var wire 1 * LT $end
+$upscope $end
+$scope module C3 $end
+$var wire 1 8 A $end
+$var wire 1 9 B $end
+$var wire 1 1 EQ $end
+$var wire 1 - GT $end
+$var wire 1 ) LT $end
+$upscope $end
+$scope module C4 $end
+$var wire 1 : A $end
+$var wire 1 ; B $end
+$var wire 1 0 EQ $end
+$var wire 1 , GT $end
+$var wire 1 ( LT $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0;
+0:
+09
+08
+07
+06
+05
+04
+13
+12
+11
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#10
+0#
+1!
+00
+1(
+1;
+b1 %
+b1 '
+#20
+1"
+0!
+1,
+0(
+0;
+1:
+b0 %
+b0 '
+b1 $
+b1 &
+#30
+0!
+1"
+01
+1(
+1-
+0,
+1;
+18
+0:
+b1 %
+b1 '
+b10 $
+b10 &
+#40
+0"
+1#
+0-
+11
+10
+0(
+19
+0;
+b10 %
+b10 '
+#50
+0#
+1!
+00
+1(
+1;
+b11 %
+b11 '
+#60
+0"
+0!
+1#
+10
+0(
+0/
+0.
+15
+17
+14
+16
+1:
+b1111 %
+b1111 '
+b1111 $
+b1111 &
+#70
+1"
+0#
+1,
+00
+0;
+b1110 %
+b1110 '
+#80
+1!
+0"
+1(
+0,
+1;
+0:
+b1111 %
+b1111 '
+b1110 $
+b1110 &

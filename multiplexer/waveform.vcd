@@ -1,0 +1,49 @@
+$date
+	Thu Oct 16 18:58:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! signal $end
+$var reg 1 " a1 $end
+$var reg 1 # a2 $end
+$var reg 1 $ a3 $end
+$var reg 1 % a4 $end
+$var reg 2 & sel [1:0] $end
+$scope module mux $end
+$var wire 1 " a1 $end
+$var wire 1 # a2 $end
+$var wire 1 $ a3 $end
+$var wire 1 % a4 $end
+$var wire 2 ' sel [1:0] $end
+$var reg 1 ! signal $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+0%
+1$
+0#
+1"
+1!
+$end
+#10
+0!
+b1 &
+b1 '
+#20
+1!
+b10 &
+b10 '
+#30
+0!
+b11 &
+b11 '
+#40
