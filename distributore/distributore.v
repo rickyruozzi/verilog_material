@@ -1,4 +1,4 @@
- module distributore(input clk, input reset, input d_i, input v_i, output reg output_o);
+module distributore(input clk, input reset, input d_i, input v_i, output reg output_o);
 reg [1:0] state, next_state;
 parameter s0=2'b00, s1=2'b01, s2=2'b10;
 always @(negedge clk or negedge reset) begin 
