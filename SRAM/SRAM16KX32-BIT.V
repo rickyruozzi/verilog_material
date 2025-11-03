@@ -24,6 +24,7 @@ module sram16k32 (
     assign data_out = mod_data_out[sel_mod]; // instradamento dell'uscita del modulo selezionato a data_out
 /*Notiamo che i primi 4 bit del modulo servono per indicare il modulo, per questo abbiamo :
 bit 13:10 -> selezione del modulo (16 moduli)
-bit 9:0 -> selezione dell'indirizzo interno. 
+bit 9:0 -> selezione dell'indirizzo interno.
+in alternativa avremmo potuto anche se scomodamente creare un canale apposito per la selezione del modulo  
 */
 endmodule
