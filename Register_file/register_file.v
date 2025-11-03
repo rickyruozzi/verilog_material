@@ -33,4 +33,5 @@ module register_file#(parameter nregs=32, parameter xlen=32, parameter log2_nreg
     end
     assign read_data1 = (read_addr1 == {log2_nregs{1'b0}} ? {xlen{1'b0}} : registers[read_addr1]); //read operation from the correct register
     assign read_data2 = (read_addr2 == {log2_nregs{1'b0}} ? {xlen{1'b0}} : registers[read_addr2]); //the operation will happen at first because it is not waiting for the clock edge, so we can place it here.
+    //they are gonna be active all the time, so they do not need to be in the always block.
 endmodule
